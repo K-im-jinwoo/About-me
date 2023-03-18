@@ -1,0 +1,77 @@
+body {
+  font-family: 'Lexend', sans-serif;
+}
+
+/* color */
+.dark-bg {
+  background: #1B1A17;
+}
+
+.light-bg {
+  background: #1F1E1B;
+}
+
+.mark-hover {
+  color: #A35709;
+}
+
+.mark-bg {
+  color: #FF8303;
+}
+
+.text-bg {
+  color: #F0E3CA;
+}
+
+/* Font size */
+
+.fs-base {
+  font-size: 18px;
+  line-height: 19px;
+}
+
+.fs-medium {
+  font-size: 24px;
+  line-height: 25px;
+}
+
+.fs-h2 {
+  font-size: 32px;
+  line-height: 34px;
+}
+
+.fs-h1 {
+  font-size: 40px;
+  line-height: 41px;
+}
+
+/* font-weight */
+.fw-thin,
+.fw-100 {
+  font-weight: 100;
+}
+
+.fw-light,
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-regular,
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-medium,
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-bold,
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-black,
+.fw-900 {
+  font-weight: 900;
+}
