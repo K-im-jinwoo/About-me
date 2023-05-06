@@ -1,9 +1,20 @@
-import './App.css';
+//component
+import Header from './components/Header';
+
+//page
+import Main from './pages/Main';
+
+// css
+import './styles/typography.css'
+import './styles/reset.css'
+
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+      <Header></Header>
+      <Main></Main>
+    </>
   );
 }
 
