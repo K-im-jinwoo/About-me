@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding: 141.5px 18.5px;
+}
+.main__desc_wrap {
+  margin-bottom: 64px;
+}
+.main__tit,
+.main__subtit {
+  display: block;
+  margin-bottom: 16px;
+}
+.main__img {
+  display: flex;
+  margin-top: 10px;
+}
+
+.main__git {
+  background-image: url("../images/git.png");
+  background-size: cover;
+  background-position: center;
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+.main__blog {
+  background-image: url("../images/tistory.png");
+  background-size: cover;
+  background-position: center;
+  width: 36px;
+  height: 36px;
+}
+.main__git, .main__blog {
+  cursor: pointer;
+}
+
+.main__profile_img {
+  width: 278px;
+  height: 278px;
+  border-radius: 50%;
+}

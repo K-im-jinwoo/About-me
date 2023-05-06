@@ -1,0 +1,25 @@
+.header {
+}
+.header__logo {
+  margin-left: 8px;
+}
+.header__nav {
+  margin-right: 8px;
+}
+.header__nav_logo {
+  background-image: url("../images/menu.svg");
+  background-size: cover;
+  background-position: center;
+  width: 36px;
+  height: 24px;
+}
+.header_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.header__nav_logo:hover {
+  cursor: pointer;
+}
