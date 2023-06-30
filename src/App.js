@@ -3,6 +3,7 @@ import Header from './components/Header';
 
 //page
 import Main from './pages/Main';
+import About from './pages/About'
 
 // css
 import './styles/typography.css'
@@ -14,6 +15,7 @@ function App() {
     <>
       <Header></Header>
       <Main></Main>
+      <About></About>
     </>
   );
 }

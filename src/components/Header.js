@@ -1,6 +1,11 @@
 import { useState } from 'react';
+// component
 import Dropdown from './Dropdown';
+// css
 import './Header.css'
+// mediaquery
+import { Desktop, Mobile, Tablet } from "./utils/mediaQuery";
+
 
 function Header() {
   const [dropdown, setDropdown] = useState(false); 

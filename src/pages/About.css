@@ -1,0 +1,30 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  text-align: left;
+  padding: 141.5px 18.5px;
+}
+
+.about > .about__desc1 , 
+.about > .about__desc2 {
+  margin-bottom: 15px;
+}
+
+.about > .about__desc3 {
+  margin-bottom: 50px;
+}
+
+.about > .about__more_btn {
+  width: 100%;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  animation: blink-effect 1.8s ease-in-out infinite;
+}
+
+@keyframes blink-effect {
+  50% {
+    opacity: 0;
+  }
+}

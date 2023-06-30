@@ -3,7 +3,7 @@ import './Main.css'
 
 function Main() {
   return (
-    <main className='main'>
+    <div className='main'>
       <div className='main__desc_wrap fs-medium'>
         <h2 className='main__tit fs-h2 mark-bg'>KimJinWoo</h2>
         <strong className='main__subtit fs-h2'>Frontend Developer</strong>
@@ -25,7 +25,7 @@ function Main() {
       <div>
         <img src={process.env.PUBLIC_URL + '/profile.jpg'}  className='main__profile_img'/>
       </div>
-    </main>
+    </div>
   )
 }
 
